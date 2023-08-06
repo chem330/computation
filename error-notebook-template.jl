@@ -56,6 +56,12 @@ md"# Part 1: Beakers"
 # ╔═╡ c13c4fe8-346e-11ee-0b45-e9a54dd8538a
 beaker_masses = [ missing, missing, missing, missing, missing ]
 
+# ╔═╡ 14761743-3d86-4ee2-b6d7-b01caaf63b87
+@bind somenum Slider(1:10)
+
+# ╔═╡ 4184ed56-e6fb-4d8b-a17a-fd8f8b919ec2
+somenum
+
 # ╔═╡ ed4f1809-29e4-4b5d-8145-5327d97f316e
 md"## Mean"
 
@@ -872,6 +878,8 @@ version = "17.4.0+0"
 # ╠═c13c4fe8-346e-11ee-0b45-e9a54dd8538a
 # ╠═b21a8695-5e3c-4ebb-af21-21d6dc0cc9d0
 # ╟─de8ef3c6-2cb3-4c8d-823c-6e2b6de7c47e
+# ╠═14761743-3d86-4ee2-b6d7-b01caaf63b87
+# ╟─4184ed56-e6fb-4d8b-a17a-fd8f8b919ec2
 # ╟─ed4f1809-29e4-4b5d-8145-5327d97f316e
 # ╟─a52d8cdc-6ee0-4e1f-b439-dcbea5eba032
 # ╠═0ff710f8-e05c-4760-8146-a03bd31be00f
